@@ -23,3 +23,9 @@
     margin-left: 16%;
     color: #302d55;
  }
+
+ @media(max-width:450px){
+   .about-cont{
+      grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+   }
+ }

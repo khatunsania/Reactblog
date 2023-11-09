@@ -77,3 +77,10 @@
     color:#2f4970;
 
 }
+
+@media(max-width:560px){
+    .l-adr .date p{
+        padding-left: 0;
+
+    }
+}
