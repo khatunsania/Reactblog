@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap');
+
+  
+  
+*{
+    font-family: 'open Sans', sans-serif;
+}
+.about-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 2rem;
+    width: 70%;
+    margin: auto;
+ }
+ .view p{
+    text-align: center;
+ }
+ .view button{
+    padding: 7px 25px;
+ }
+ .l-nots h1{
+    margin-left: 16%;
+    color: #302d55;
+ }

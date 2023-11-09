@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.logo h1{
+    color: #302d55;
+}
+.bars ul{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+}
+.bars ul li:hover{
+    color: #f54b71;
+}
+
+
+.bars ul li{
+    padding: 10px;
+    font-weight: 800;
+    color: 
+    #002050;
+}
+.log-but button{
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 12px;
+}
+.log-but{
+    margin-top: 15px;
+}
+button:first-child{
+    background-color: #fff;
+    border: none;
+    ;
+}
+button:first-child:hover{
+    background-color: #f54b71;
+    color: #fff;
+    border: 2px solid #f54b71;
+    border-radius: 5px;
+    
+}
+button:last-child{
+    background-color: #f54b71;
+    border: 1px solid #f54b71;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 30px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+button:last-child:hover{
+    background-color: transparent;
+    border: 2px solid #f54b71;
+    color: #f54b71;
+}
+.home-text{
+    width: 70%;
+    margin: auto;
+}
+.home-text {
+margin-top: 50px;
+
+}
+.home-text h1{
+    font-size: 40px;
+    margin-bottom: 70px;
+    line-height: 1.2;
+    font-weight: 800;
+    text-align: center;
+    color: #302d55;
+}
+.home-text p{
+    font-size: 18px;
+    margin: 40px auto 0;
+    max-width: 720px;
+    text-align: center;
+    color:  #274068;
+       font-size: 18px;
+    margin: 40px auto 0;
+    max-width: 720px;
+
+}
+.view{
+    position: relative;
+}
+/* .vn{
+    position: absolute;
+    left: 43%;
+    top: 23px;
+
+} */
+.view button{
+    padding: 0px 25px;
+    font-weight: 700;
+}
+.view button:hover{
+    background-color: transparent;
+    border: 2px solid #f54b71;
+    color: #f54b71;
+}
+.view button p{
+    text-align: center;
+}
+@media(max-width:800px){
+    .bars ul{
+        display: none;
+    }
+    .log-but{
+        display: none;
+    }
+    .logo P{
+        text-align: center;
+    }
+   
+}
+@media(max-width:699px){
+    .home-text h1{
+        margin: auto;
+        
+        /* margin-left: 20%; */
+    }
+    .home-text{
+        width: 95%;
+    }
+}
+@media(max-width:420px){
+   
+ 
+    .home-text{
+        margin-left: 20%;
+    }
+    .view{
+        margin-left: 20%;
+    }
+}

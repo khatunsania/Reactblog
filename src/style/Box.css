@@ -1,0 +1,79 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap');
+
+  
+  
+*{
+    font-family: 'open Sans', sans-serif;
+}
+
+
+.l-adr .la-img img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+}
+ .l-adr{
+    display: flex;
+ }
+ .box-end{
+    display: flex;
+    justify-content: space-between;
+ }
+ .about{
+    width: 94%;
+    margin: auto;
+    
+ }
+
+ .l-img img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+  
+}
+.all-text{
+    width: 100%;
+}
+.la-name p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.la-name span{
+    color: #f43676;
+}
+.l-text h2{
+    width: 100%;
+    /* text-align: center; */
+    font-size: 29px;
+    padding-left: 10px;
+    color: 
+    #302d55;
+
+}
+.l-adr .date p{
+    
+    font-size: 15px;
+    width: 100%;
+    padding-left: 54px;
+    color: #2f4970;
+
+
+}
+.b-text p{
+    color: #2f4970;
+    font-weight: 600;
+}
+.rm button{
+    padding: 7px 9px;
+    font-weight: 700;
+}
+.re p{
+    font-size: 15px;
+    color:#2f4970;
+
+}

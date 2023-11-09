@@ -1,0 +1,120 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap');
+
+  *{
+    font-family: 'Raleway', sans-serif;
+
+  }
+
+.foot-body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(247px, auto));
+    gap: 2rem;
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.foot-about{
+    width: 100%;
+
+}
+.foot-about h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.foot-about p{
+    color: #8f92bd;
+}
+.foot-about a{
+    width: 78px;
+    height: 78px;
+    color: #fff;
+    background: #320d9a;
+    display: inline-block;
+    text-align: center;
+    line-height: 78px;
+    font-size: 30px;
+    margin-top: 21px;
+}
+.foot-about h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.foot-about .foot-clock{
+display: flex;
+margin-top: 25px;
+
+}
+.fa-text{
+    margin-left: 15px;
+    line-height: 7px;
+}
+.links h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.links ul{
+    margin: 0px;
+    padding: 0px;
+}
+.links ul li{
+    display: block;
+    margin-bottom: 12px;
+    color: #8f92bd;
+
+}
+.foot-course h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.foot-course ul{
+    margin: 0px;
+    padding: 0px;
+}
+.foot-course ul li{
+    display: block;
+    margin-bottom: 12px;
+    color: #8f92bd;
+}
+.foot-img{
+    display: flex;
+    padding: 8px;
+}
+.foot-text{
+    margin-left: 15px;
+    width: 62%;
+    line-height: 0;
+}
+.foot-text h6{
+    color: #fff;
+}
+.foot{
+    background-color: 
+    #0c0e2b;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.foot-text p{
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 0;
+
+}
+.post h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+@media(max-width:540px){
+    .foot{
+        margin-left: 20%;
+    }
+}
