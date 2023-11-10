@@ -25,7 +25,7 @@ function Note() {
 
                 </div>
                 <div className="box-3">
-                < Box change="/public/img/ball.jpg" para="Some sports that will be affected by big-data advances" profile="/img/girl.jpeg" name=" Adriana Martins .
+                < Box change="/img/ball.jpg" para="Some sports that will be affected by big-data advances" profile="/img/girl.jpeg" name=" Adriana Martins .
 
 " />
 
@@ -43,8 +43,8 @@ function Note() {
 
                 </div>
                 <div className="box-6">
-                < Box change="/public/img/proces.jpg" para="Artificial Intelligence in the generative image process
-" profile="/public/img/girl.jpeg"  name=" Adriana Martins .
+                < Box change="/img/proces.jpg" para="Artificial Intelligence in the generative image process
+" profile="/img/girl.jpeg"  name=" Adriana Martins .
 
 "/>
 
